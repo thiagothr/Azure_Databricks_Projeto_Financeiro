@@ -7,7 +7,8 @@ Este projeto visa a cronstrução de toda a arquitetura, fluxo e processamento d
 ## Arquitetura do projeto 
 O projeto utiliza a arquitetura em nuvem da Microsoft Azure.O Azure oferece recursos e ferramentas para ajudar no desenvolvimento e implantação de aplicativos, além de garantir alta disponibilidade, segurança e desempenho.
 
-![image](https://github.com/thiagothr/Azure-Databricks-Analise-Bancario/assets/72639507/d5948703-4130-487d-a0e1-7f6d0591dd0b)
+![image](https://github.com/thiagothr/Azure-Databricks-Projeto-Bancario/assets/72639507/d0ec7b34-3196-4232-8be2-d5b0743be505)
+
 
 Alguns dos serviços utilizados pra este projeto foram:
   - Azure Key Vault
@@ -28,35 +29,39 @@ Além do gerenciamento de assinaturas, recursos, permissões, regiões, urls, to
 
 - Com arquivo enviado para o Storage Account e pronto para fazer todo o tratamento dessa estrutura conforme a imagem abaixo.
 
-![image](https://github.com/thiagothr/Azure-Databricks-Analise-Bancario/assets/72639507/206ccd73-0985-4409-b26b-50765362dabf)
+![image](https://github.com/thiagothr/Azure-Databricks-Projeto-Bancario/assets/72639507/196de851-eeb1-4b93-89c6-32b72e4d6c93)
+
 
 - Nesta etapa são realizados a criação de scripts utilizando PySpark para fazer a conexão do Storage Account com o Databricks e leitura do dataset CSV e implementação de regras de negócio para processar os dados de forma precisa, para então realizar a conexão com o Azure SQL database disponibilizando os dados através de tabelas estruturadas para facilitar a disponibilização para quem utiliza de soluções de analises para como Power BI.
 
-- O próximo passo é iniciar a realização da fase de processamento dos dados armazenados. E para isto, é criado um workspace no DATABRICKS.
+- O próximo passo é iniciar a realização da fase de processamento dos dados armazenados. E para isto, é criado um workspace no ## DATABRICKS.
 
-![image](https://github.com/thiagothr/Azure-Databricks-Analise-Bancario/assets/72639507/16423cd0-216c-48b0-8cd0-f32ba013769f)
+![image](https://github.com/thiagothr/Azure-Databricks-Projeto-Bancario/assets/72639507/bce61935-3e7c-4d3b-8199-1f185ffb7d72)
+
 
 - Na imagem acima é criado um cluster no Databricks com as configurações um pouco mais básicas pois a carga de processamento do nosso projeto não precisa de maiores configurações.
 
 - Nesta etapa são realizados a criação de scripts utilizando PySpark como conexão do Storage Account com o Databricks e leitura do dataset CSV e implementação de regras de negócio para processar os dados de forma precisa para então realizar a conexão com o Azure SQL database disponibilizando os dados através de tabelas estruturadas para facilitar a disponibilização para quem utiliza de soluções de analises para como Power BI.
 
 ## mount entre azure storage account com o databricks
-![image](https://github.com/thiagothr/Azure-Databricks-Analise-Bancario/assets/72639507/a8230cde-d15f-46d7-b0ee-c376913b9972)
+
+![image](https://github.com/thiagothr/Azure-Databricks-Projeto-Bancario/assets/72639507/a61b62ab-560b-4d9b-853a-51982c813e8b)
 
 - Além do script criado foi também configurado e criado o SecretScope para armazenar usuário e senhas para fim de ter um segurança dentro da ferramenta
 
 
-![image](https://github.com/thiagothr/Azure-Databricks-Analise-Bancario/assets/72639507/19f6c5fb-b3ef-4aa7-b275-3de744d9e9f8)
+![image](https://github.com/thiagothr/Azure-Databricks-Projeto-Bancario/assets/72639507/a7b5aea7-80b2-4fd0-a66a-6fcc04dece2e)
 
 
 ## Filtragem dos clientes que tem o maior limite e que tiveram transições acima de 4000 reais
-![image](https://github.com/thiagothr/Azure-Databricks-Analise-Bancario/assets/72639507/8ce2f4f9-80f3-4258-926e-483731d66d2c)
+![image](https://github.com/thiagothr/Azure-Databricks-Projeto-Bancario/assets/72639507/90eb514f-a937-406e-b1c7-8c9ada2313e4)
 
 ## Conexão do Azure databricks com Azure SQL Database
-![image](https://github.com/thiagothr/Azure-Databricks-Analise-Bancario/assets/72639507/afe3ada5-e808-467f-8293-3bbafc28daa4)
+![image](https://github.com/thiagothr/Azure-Databricks-Projeto-Bancario/assets/72639507/33cf6173-e470-438a-8e48-3da5e10e7402)
 
 - Então após a criação de todo o script e conexão com o banco do Azure na imagem abaixo pode ver todo o dataset gerado no databricks estruturado no banco para então ser disponibilizado para analises e criações de dashboard.
 
-![image](https://github.com/thiagothr/Azure-Databricks-Analise-Bancario/assets/72639507/f4728d21-fe02-4396-8929-775bb0343ffd)
+![image](https://github.com/thiagothr/Azure-Databricks-Projeto-Bancario/assets/72639507/2fbd392a-420c-4c9b-8db2-82c0e315a3b2)
+
 
 
