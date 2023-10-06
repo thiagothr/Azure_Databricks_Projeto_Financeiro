@@ -25,7 +25,7 @@ Além do gerenciamento de assinaturas, recursos, permissões, regiões, urls, to
 
 ## Descrição do projeto
 - Nesta seção vou destacar alguns passos e desafios ao decorrer deste projeto. O primeiro passo do projeto foi a importação de base de dados público do kaggle. Importamos dados com estrutura CSV e JSON para futuramente ser tratado em ambiente em nuvem.
-- Após ser criada uma conta na plataforma da Azure, e tendo feito toda a criação de recursos e configurações de segurança na plataforma relacionados ao projeto, foi criado um Storage Account (Data Lake) de modo a simular uma situação real em que os CSV's estariam disponíveis para extração dessa estrutura de dados, e é neste local que que os dados extraídos do KAGGLE vão ser armazenados.
+- Após ser criada uma conta na plataforma da Azure, e tendo feito toda a criação de recursos e configurações de segurança na plataforma relacionados ao projeto, foi criado um Storage Account (Data Lake) de modo a simular uma situação real em que o CSV estaria disponível para extração dessa estrutura de dados, e é neste local que os dados extraídos do KAGGLE vão ser armazenados.
 
 - Com arquivo enviado para o Storage Account e pronto para fazer todo o tratamento dessa estrutura conforme a imagem abaixo.
 
