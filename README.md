@@ -2,7 +2,7 @@
 Projeto de engenharia de dados envolvendo Microsoft Azure e Databricks para processamento de transições bancários
 
 ## Escopo do projeto 
-Este projeto visa a cronstrução de toda a arquitetura, fluxo e processamento de dados de transições bancárias de um banco fictcio utilizando das mais diversas funções disponibilizadas pela cloud Azure e Linguagem Python.
+Este projeto visa a construção de toda a arquitetura, fluxo e processamento de dados de transições bancárias de um banco fictcio utilizando das mais diversas funções disponibilizadas pela cloud Azure e Linguagem Python.
 
 ## Arquitetura do projeto 
 O projeto utiliza a arquitetura em nuvem da Microsoft Azure.O Azure oferece recursos e ferramentas para ajudar no desenvolvimento e implantação de aplicativos, além de garantir alta disponibilidade, segurança e desempenho.
