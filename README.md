@@ -1,4 +1,4 @@
-# Azure-Databricks-Projeto-Bancario
+# Azure Databricks Projeto para para o setor Financeiro.
 Projeto de engenharia de dados envolvendo Microsoft Azure e Databricks para processamento de transições bancários
 
 ## Escopo do projeto 
